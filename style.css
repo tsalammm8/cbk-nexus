@@ -1,0 +1,312 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* to prevent da horizontal scroll */
+}
+
+header {
+    color: #01587D;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #def5ff;
+}
+
+.one {
+    flex: 2;
+    padding: 20px;
+    margin-right: 40px;
+
+}
+
+.one .lol {
+    color: #01587D;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.one p {
+    color: #64b9de;
+    font-size: 1.7em;
+    line-height: 1.6;
+}
+
+.hero {
+    flex: 1;
+    background-color: #64b9de;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 250px; 
+    height: auto; /* to let da height adjust automatically*/
+    padding-top: 20px; 
+    padding-bottom: 100px;
+}
+
+.hero h2 {
+    color: #01587D;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #01587D;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #01587D;
+    color: rgb(252, 248, 248);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #013f59;
+}
+
+.whySection{
+    display:inline;
+}
+
+/* i wrote 40 lines of code and deleted it bcs i figured it was
+useless so this comment is here to appreciate the work i did 
+into those lines of code, great work tasnim you did all that 
+work for nothing <3 */
+
+.whySection h1 {
+    color: #01587D;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 20px;
+   
+}
+
+.whySection p {
+    color: #01587D;
+    font-size: 1.7em;
+    line-height: 1.6;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 200px;
+    padding-top: 40px;
+    
+}
+
+.painPointsSection {
+    width: 100%;
+    padding: 0px;
+    background-color: #def5ff;
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/id/1410615241/vector/school-icon-seamless-pattern-vector-illustration.jpg?s=612x612&w=0&k=20&c=YyszrfdDjYWmx-fRar-s8Uottab1E3SQ5vPvgZM0fZ8='); 
+    background-size: cover; /* could use 'contain' idk the diffrence */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /*keeps it fixed to the viweport so liek when u scroll it looks extra cool heh */
+    min-height: 600px;
+}
+
+.painPointsSection h1 {
+    color: #013f59;
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    background-color: #e0f7fa; 
+    display: inline-block; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+}
+
+.painPointsSection ul {
+    list-style: none;
+    padding: 5%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.painPointsSection li {
+    background-color: #def5ff ; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadowww*/
+    flex: 1; /* to let the cards to grow and shrink  */
+    max-width: 30%; 
+    display: flex;
+    flex-direction: column; /* da text and button are vertically aligned */
+    align-items: center; 
+    text-align: center; 
+}
+
+.painPointsSection li h2 {
+    color: #01587D;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.painPointsSection li p {
+    color: #64b9de;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.painPointsSection li a {
+    color: #01587D;
+    font-size: 1em;
+    text-decoration: none;
+  
+    border: 1px solid #01587D;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.painPointsSection li a:hover {
+    background-color: #01587D;
+    color: white;
+}
+
+.userQuotesSection {
+    width: 100%;
+    padding: 50px;
+    background-color: #faffff;
+    text-align: center;
+}
+
+.userQuotesSection h1 {
+    color: #01587D;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.userQuotesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.quoteCard {
+    background-color: #01587D;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: left;
+    margin: 20px;
+}
+
+.quoteCard p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.quoteAuthor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quoteAuthor img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.authorDetails {
+    text-align: left;
+}
+
+.authorName {
+    font-weight: bold;
+}
+
+.authorRole {
+    color: #cccccc;
+}
+
+.waitlist {
+    padding: 5px;
+    background-color: #64b9de;
+    border-radius: 10px;
+}
+
+.waitlist h2{
+    color: #01587D;
+    font-size: 30px;
+    margin-left:10px
+}
+
+.waitlist p{
+    color: #01587D;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+.footer {
+    background-color: #f8f8f8; 
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #666;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    color:#013f59;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-description
+{
+    margin: 0 10px; 
+    font-size: 14px;
+    color: #999;    
+}
+
